@@ -1,6 +1,6 @@
 cask "ordo" do
   version "0.1.1"
-  sha256 "a5ae987cb571880f109e0680321fc48c17522843f89edbcadb7c5837d3f6c4d1"
+  sha256 "70d47c7c01bb062a700fdb7ccb147ffabbac6a82481278d15cc7f1ad48611ffa"
 
   url "https://github.com/nyushi/ordo/releases/download/v0.1.1/Ordo.app.zip"
   name "Ordo"
