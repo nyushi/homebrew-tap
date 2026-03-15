@@ -1,12 +1,12 @@
 cask "ordo" do
   version "0.1.1"
-  sha256 "70d47c7c01bb062a700fdb7ccb147ffabbac6a82481278d15cc7f1ad48611ffa"
+  sha256 "c7497e15a967026872c934e02ba375fb6b3498635355f7962063eb2469a9d26c"
 
   url "https://github.com/nyushi/ordo/releases/download/v0.1.1/Ordo.app.zip"
   name "Ordo"
   desc "Floating org-mode scratchpad for macOS"
   homepage "https://github.com/nyushi/ordo"
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Ordo.app"
 
