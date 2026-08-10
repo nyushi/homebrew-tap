@@ -7,6 +7,12 @@ cask "27m2v-display-switch" do
   desc "Menu bar app for enabling and disabling an INNOCN 27M2V display"
   homepage "https://github.com/nyushi/homebrew-tap"
 
+  livecheck do
+    url :url
+    regex(/^27m2v-display-switch-v?(\d+(?:\.\d+)+)$/i)
+    strategy :github_releases
+  end
+
   depends_on arch: :arm64
   depends_on macos: :ventura
 
